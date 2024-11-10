@@ -1,4 +1,3 @@
- <!-----META SECTION----->
  <!DOCTYPE html>
  <html>
  <head>
@@ -10,49 +9,34 @@
  </head>
  <body>
     <!-----MENU SECTION------>
-    <div class="main-panel">
-    <div class="container">
-      <div class="width-33 logo">Port<span class="span-col">folio</span>
-      </div>
-      <div class="width-66">
+    <header>
+        <a href="#" class="logo"><span>Portfolio</span></a>
         <nav>
-          <a href="#">
-            <span class="span-col">Home</span>
-          </a>
-          <a href="#">About me</a>
-          <a href="#">Skills</a>
-          <a href="#">Education</a>
-          <a href="#">Project</a>
-          <a href="#">Certificates</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact Me</a>
         </nav>
-      </div>
-    </div>
+    </header>
+
+    <script src="script.js"></script>
 
 
-    <!------HOME PAGE------>
+<!------HOME PAGE------>
 <div class="container ">
     <div class="width-50">
       <div class="banner-section">
+        <section id="home"></section>
         <span class="span-col">Hello, Everyone&nbsp;&nbsp;It's&nbsp;&nbsp;Me</span>
         <h1>Sneha <span class="span-col">Kumari</span>
         </h1>
-        <h2>And I'm Web Developer</h2>
-        <a href="#">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-github"></i>
-        </a>
+        <h2>And I'm Software Developer</h2>
       </div>
     </div>
     <div class="width-50">
-      <img src="img.jpg">
+      <img src="img.jpg" class="img">
     </div>
   </div>
   </div>
@@ -65,9 +49,8 @@
       </div>
       <div class="width-50">
         <div class="about-us">
-          <h2 class="heading-text">About Me</h2>
+          <section id="about">About Me</section>
           <p>Hello! I am a computer science student with a passion for solving complex problems and building practical applications. My academic focus includes computer networks, algorithms, and software development. I’ve studied topics such as routing algorithms, error detection techniques, and optimization problems.
-
             Beyond the classroom, I'm involved in an NGO, where I use my skills in python to generate insightful reports that aid in improving educational programs.
             I'm always looking for ways to apply my tech skills to real-world projects and make a positive impact through my work.</p>
           <div class="width-50 mt-20">
@@ -111,7 +94,7 @@
   <!------SKILL SECTION------>
 <div class="main-section">
     <div class="container">
-      <h2 class="heading-text">My Skills</h2>
+      <section id="skills">Skills</section>
       <div class="width-50">
         <div class="skill">
             <b>Python</b>
@@ -159,25 +142,11 @@
     </div>
   </div>
 
-  <!------EDUCATION SECTION------>
-<div class="main-section bg-lightgrey">
-    <div class="container">
-      <div class="edu-exp">
-        <h2 class="heading-text">Education</h2>
-        <div class="experience-list">
-          <div class="experience-content">
-            <h2>Symbiosis Institute of Technology</h2>
-            <h3>2022-2026</h3>
-            <p>Bachelor in Computer Engineering</p>
-          </div>
-        </div>
-      </div>
-  </div>
 
   <!------PROJECT SECTION------>
 <div class="main-section">
     <div class="container">
-      <h2 class="heading-text">Project</h2>
+      <section id="project">Project</section>
       <div class="width-50">
         <div class="service-list">
             <i class="fa fa-reddit"></i>
@@ -212,7 +181,7 @@
   <div class="main-section bg-lightgrey">
     <div class="container">
       <div class="edu-exp">
-        <h2 class="heading-text">Certificates</h2>
+        <section id="certificates">Certificates</section>
         <div class="Certificates-container">
           <div class="Certificates-content">
             <h2>Certificate of Training Completion, Acmegrade  
@@ -234,11 +203,10 @@
       </div>
   </div>
 
-
   <!-------------CONTACT ME SECTION----------------------->
 <div class="main-section contact bg-lightgrey">
     <div class="container">
-      <h2 class="heading-text">Get In Touch</h2>
+        <section id="contact">Contact</section>
       <div class="width-100">
         <form>
           <input type="text" placeholder="Full Name..." required>
@@ -271,28 +239,10 @@
       </div>
     </div>
   </div>
-  
-
 
   <!------FOOTER SECTION------>
-<div class="footer">
-    <div class="container">
-      <div class="footer-sect social-icon width-50">
-        <a href="#">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </div>
-      <div class="footer-sect mt-20 width-50">CopyRight © 2023 Dezven.com Website Template. All Rights Reserved</div>
-    </div>
+  <div class="footer">
+    <div class="footer-sect mt-20 width-50">CopyRight © 2023 Dezven.com Website Template. All Rights Reserved</div>
   </div>
  </body>
 </html>
