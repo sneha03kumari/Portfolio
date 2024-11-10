@@ -3,8 +3,59 @@
 	margin: 0;
 	padding: 0;
 	-outline: 0;
-	font-family:sans-serif sans-serif, arial;;
+	font-family:sans-serif sans-serif, arial;
+  scroll-behavior: smooth;
 }
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 120px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  color: #ff9c00;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 90px;
+}
+
+nav a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 35px;
+}
+
+nav a{
+  transition: .3s;
+}
+
+nav a:hover{
+  color: #ffbf35;
+}
+
+section{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-size: 50px;
+  color: #ff9c00;
+  font-weight: 600;
+
+}
+
 html 
 	{
 	font-size: 14px;
@@ -37,7 +88,21 @@ body
 	float: left;
 }
 
+nav a{
+  transition: .3s;
+}
+
+nav a:hover{
+  color: #ffbf35;
+}
+
 /*****MENU SECTION*****/
+.img {
+	width: 100%;
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+
 .main-panel {
 	width: 100%;
 	float: left;
@@ -51,9 +116,6 @@ body
 	font-weight: 600;
 }
 
-.span-col {
-	color: #ffbf35;
-}
 
 nav {
 	float: right;
@@ -66,6 +128,7 @@ nav a {
 	margin-left: 20px;
 	color: white;
 }
+
 /*****Main BANNER*****/
 .width-50 {
 	float: left;
@@ -101,6 +164,7 @@ nav a {
 	width: 50px;
 	line-height: 50px;
 }
+
 /*****Main BANNER IMAGE*****/
 .main-panel img {
 	margin-top: 10%;
@@ -108,7 +172,7 @@ nav a {
 	margin-left: 10%;
 }
 
-/*ABOUT US SECTION*/
+/*ABOUT ME SECTION*/
 .main-section {
 	width: 100%;
 	float: left;
@@ -198,45 +262,6 @@ div[role="progressbar"] {
 }
 
 
-/*****EDUCATION SECTION*****/
-.bg-lightgrey {
-	background-color: #1a1a1a;
-}
-.edu-exp {
-	padding: 10px 0px;
-	width: 80%;
-	margin: 1%;
-	float: left;
-	padding-left: 200px;
-}
-.experience-list {
-	width: 100%;
-	float: left;
-	padding: 30px 10px;
-	background: #262626;
-	margin-bottom: 20px;
-}
-.experience-content {
-	width: 100%;
-	float: left;
-	margin-left: 10px;
-}
-.experience-content h2 {
-
-	font-weight: 600;
-	margin-bottom: 5px;
-	font-size: 20px;
-}
-.experience-content h3 {
-	color: #ffbf35;
-	font-weight: 500;
-	margin-bottom: 2px;
-	font-size: 17px;
-}
-.experience-content p {
-	font-size: 15px;
-}
-
 /*SERVICE SECTION*/
 .service-list {
 	padding: 40px;
@@ -271,10 +296,10 @@ div[role="progressbar"] {
 }
 .edu-exp {
 	padding: 10px 0px;
-	width: 80%;
+	width: 100%;
 	margin: 1%;
 	float: left;
-	padding-left: 200px;
+	padding-left: 10px;
 }
 .Certificates-container{
 	width: 100%;
@@ -305,13 +330,13 @@ div[role="progressbar"] {
 /*CONTACT US SECTION*/
 .contact form {
     width: 66%;
-    margin: 0 auto; /* Centers the form within the container */
+    margin: 0 20px auto; /* Centers the form within the container */
     padding: 20px;
   }
   
   .contact input,
   .contact textarea {
-    width: 100%;
+    width: 150%;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #a1a1a1;
@@ -323,7 +348,7 @@ div[role="progressbar"] {
   }
   
   .contact button {
-    width: 100%;
+    width: 150%;
     margin-bottom: 20px;
     padding: 10px;
     background: #ffbf35;
@@ -377,30 +402,19 @@ div[role="progressbar"] {
     }
   }
   
-
-
 /*****FOOTER SECTION*****/
 .footer {
 	background-color: #202020;
 	padding: 30px 0px 40px 0px;
 	width: 100%;
 	float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 10;
+  text-align: center;
 }
 .footer-sect {
 	color: #b3b3b3;
-}
-.footer-sect a {
-	color: #b3b3b3;
-	margin-left: 10px;
-	text-decoration: none;
-	font-size: 18px;
-	text-align: center;
-}
-.social-icon a i {
-	width: 50px;
-	height: 50px;
-	border: 1px solid #cdcdcd;
-	line-height: 50px;
-	font-size: 20px;
-	border-radius: 50%;
 }
