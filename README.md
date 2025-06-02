@@ -4,26 +4,16 @@ This project is a personal portfolio website designed to showcase an individual'
 The website is built using HTML, CSS, and JavaScript, focusing on clean layout structure, stylish visual elements, and interactive behavior such as active menu highlighting on scroll and client-side form validation.
 
 ## 🎯 Features
-- Fixed Header Navigation:
-The header remains visible at the top of the page while scrolling. It contains navigation links that smoothly scroll to different sections of the site.
-- Active Menu Highlighting:
-As the user scrolls through sections, the corresponding navigation link highlights automatically to indicate the current section in view.
-- Responsive and Stylish Layout:
-The site uses flexible widths and floats to create multi-column layouts for different content areas like skills, certificates, and services.
-- Dark Themed Design:
-Uses a black background with warm orange and yellow accents (#ff9c00, #ffbf35) to create a visually appealing contrast and modern look.
-- Contact Form with Client-side Validation:
-The form ensures all fields (name, email, phone, message) are filled before allowing submission, preventing incomplete data from being sent.
-- Smooth Scroll Behavior:
-Clicking on navigation links smoothly scrolls to the targeted page section.
-- CSS Progress Bars and Circular Indicators:
-Skills are displayed with horizontal progress bars and circular progress indicators for visual representation of proficiency.
-- Hover Effects on Navigation and Buttons:
-Navigation links and buttons change color on hover for interactive feedback.
-- Multi-Section Layout:
-Supports sections such as banner, about, skills, services, certificates, and contact.
-- Mobile-Friendly Adjustments:
-Media queries adjust form layout and font sizes for smaller screens for better usability.
+- Fixed header navigation stays visible while scrolling.
+- Menu highlights the active section automatically.
+- Responsive layout with multi-column sections.
+- Dark theme with warm orange and yellow accents.
+- Contact form with validation to ensure all fields are filled.
+- Smooth scrolling between sections.
+- Visual skill bars and circular progress indicators.
+- Hover effects on links and buttons.
+- Sections include banner, about, skills, services, certificates, contact.
+- Mobile-friendly adjustments for smaller screens.
 
 ## ⚙️ Project Workflow
 - Design & Structure:
@@ -39,13 +29,13 @@ Once finalized, deploy the website on a hosting platform or personal server to m
 
 
 ## 🏗️ Design Highlights (One-liners)
-- The site uses a sleek dark theme with warm orange and golden accents for a modern look.
-- A fixed header keeps navigation visible at all times for easy access.
-- Smooth scrolling and active link highlighting improve user navigation and orientation.
-- Clean sans-serif fonts with varied sizes ensure readability and clear content hierarchy.
-- Responsive column layouts organize content clearly using percentage-based widths.
-- Skill levels are visually represented by progress bars and circular indicators.
-- The contact form features simple, wide inputs and a bold, interactive submit button.
-- Hover effects on links and buttons provide intuitive user feedback.
-- Consistent spacing and centered containers create a balanced, professional layout.
-- Responsive design adapts form elements and text sizes for mobile devices.
+- Sleek dark theme with warm colors.
+- Fixed header for easy navigation.
+- Smooth scroll and active link highlight.
+- Clear fonts and readable layout.
+- Responsive columns for organized content.
+- Skill levels shown by progress bars and circles.
+- Simple, wide contact form with bold button.
+- Interactive hover effects.
+- Balanced spacing and centered content.
+- Mobile-friendly design.
