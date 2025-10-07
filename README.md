@@ -1,5 +1,4 @@
 # Portfolio
-Introduction
 This project is a personal portfolio website designed to showcase an individual's profile, skills, services, certificates, and provide a contact form for visitors to get in touch. The website features a modern, dark-themed design with smooth scrolling navigation, fixed header, and responsive form inputs. It emphasizes user experience with clear navigation highlighting and form validation before submission.
 The website is built using HTML, CSS, and JavaScript, focusing on clean layout structure, stylish visual elements, and interactive behavior such as active menu highlighting on scroll and client-side form validation.
 
